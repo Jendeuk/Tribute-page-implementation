@@ -10,20 +10,21 @@ body {
   font-family: "Roboto Serif", sans-serif;
   font-size: 18px;
   background-color: rgb(13, 25, 43);
-  color: hsl(0, 0%, 100%, 60%);
+  color: hsl(0, 0%, 100%, 75%);
 }
 
 #main {
-  max-width: 900px;
+  max-width: 1091px;
   max-height: 100%;
   margin: 30px auto;
   padding: 15px;
   background-color: hsl(216, 50%, 16%);
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 #title {
   text-align: center;
+  color: #ffff;
 }
 
 #main p {
@@ -46,15 +47,25 @@ body {
 .tribute-info {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .tribute-info h3 {
   text-align: center;
   margin: 1rem 0.5rem 1rem 0;
-  color: white;
+  color: #ffff;
 }
 
 .tribute-info ul li {
   margin-bottom: 10px;
   line-height: 30px;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution p {
+  padding-bottom: 30px;
 }
