@@ -76,5 +76,10 @@ footer p {
 }
 
 i {
-  color: white;
+  color: #ffff;
+}
+
+a,
+a:link {
+  color: #ffff;
 }
