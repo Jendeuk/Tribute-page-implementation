@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* BODY */
 body {
   font-family: "Roboto Serif", sans-serif;
   font-size: 18px;
@@ -13,6 +14,7 @@ body {
   color: rgb(190, 190, 190);
 }
 
+/* MAIN */
 #main {
   max-width: 1091px;
   max-height: 100%;
@@ -24,6 +26,7 @@ body {
 
 #title {
   text-align: center;
+  font-size: 50px;
   color: #ffff;
 }
 
@@ -51,7 +54,7 @@ body {
   padding-top: 50px;
 }
 
-.tribute-info h3 {
+.tribute-info h2 {
   text-align: center;
   margin: 1rem 0.5rem 1rem 0;
   color: #ffff;
@@ -60,15 +63,6 @@ body {
 .tribute-info ul li {
   margin-bottom: 10px;
   line-height: 30px;
-}
-
-footer {
-  font-size: 16px;
-  text-align: center;
-}
-
-footer p {
-  padding-bottom: 30px;
 }
 
 .qoute {
@@ -82,4 +76,14 @@ i {
 a,
 a:link {
   color: #ffff;
+}
+
+/* FOOTER */
+footer {
+  font-size: 16px;
+  text-align: center;
+}
+
+footer p {
+  padding-bottom: 30px;
 }
